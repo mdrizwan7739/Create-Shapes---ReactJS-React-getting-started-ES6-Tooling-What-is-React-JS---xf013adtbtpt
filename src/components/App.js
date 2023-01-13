@@ -3,7 +3,11 @@ import '../styles/App.css';
 const handleClick = () => {
   let b = document.getElementById('select').value;
   let a = document.createElement('div');
-  a.className = b;
+  if(b=='Square'){
+  a.className = "square";
+  }else{
+    a.className ="circle";
+  }
   document.getElementById('shapes-holder').appendChild(a);
 }
 const App = () => {
