@@ -2,9 +2,11 @@ import React from 'react'
 import '../styles/App.css';
 const handleClick = () => {
   let b = document.getElementById('select').value;
-
   let a = document.createElement('div');
   a.className = b;
+  let k = 0;
+  a.innerHTML = k;
+  k = k + 1;
   document.getElementById('shapes-holder').appendChild(a);
 }
 const App = () => {
