@@ -5,15 +5,15 @@ const handleClick = () => {
   let a = document.createElement('div');
   a.className = b;
   
-  a.innerHTML = k;
-  k = k + 1;
+  a.innerHTML = -1;
+  a.innerHTML =parseInt(a.innerHTML)+1;
   document.getElementById('shapes-holder').appendChild(a);
 }
 const App = () => {
   return (
 
     <div id="main">
-    var k = 0;
+  
 
 
       <div id="shape-creator">
