@@ -4,7 +4,7 @@ const handleClick = () => {
   let b = document.getElementById('select').value;
   let a = document.createElement('div');
   a.className = b;
-  let k = 0;
+  
   a.innerHTML = k;
   k = k + 1;
   document.getElementById('shapes-holder').appendChild(a);
@@ -13,7 +13,7 @@ const App = () => {
   return (
 
     <div id="main">
-
+var k = 0;
 
 
       <div id="shape-creator">
