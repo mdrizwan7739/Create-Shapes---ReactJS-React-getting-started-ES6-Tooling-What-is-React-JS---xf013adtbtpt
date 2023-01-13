@@ -13,13 +13,13 @@ const App = () => {
   return (
 
     <div id="main">
-var k = 0;
+    var k = 0;
 
 
       <div id="shape-creator">
         <select id='select' >
-          <option value="square">square</option>
-          <option value="circle">circle</option>
+          <option value="Square">Square</option>
+          <option value="Circle">Circle</option>
         </select>
         <button onClick={handleClick}>Add Shape</button>
 
